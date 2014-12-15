@@ -10,9 +10,9 @@
   <%= @user.email %>
 </p>
 <p>
-  <strong> All Tweets:</strong> <br>
+  <strong>All Tweets:</strong> <br>
   <% @user.tweets.each do |singletweet| %>
-  <% singletweet.status %> <br>
+  <%= singletweet.status %> <br>
   <% end %>
 </p>
 
